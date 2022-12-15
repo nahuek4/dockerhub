@@ -1,6 +1,6 @@
 FROM node:latest
-WORKDIR /appnodejs
-ADD . /appnodejs
+WORKDIR /appnode
+ADD . /appnode
 RUN npm audit fix
 RUN npm install
 EXPOSE 3000
